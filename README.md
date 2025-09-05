@@ -5,6 +5,9 @@ This project is aimed towards boosting a local charity shop's sales revenue, who
 ## Data Structure
 We use the charity shop's space management entry data reports dating back to 27th March 2022 until 20th July 2025. Constructed from this dataset we also have two other datasets: optim bays and optim rev. These two additional datasets are the results of our optimisation of the floor plan and are used to display these findings in Power BI. Optim bays contains the predicted optimal and average observed number of bays each category occupies in the shop for each month and optim rev contains the predicted optimal revenue and average observed revenue for each month. One bay is worth a meter of space in the shop.
 
+<img width="1023" height="667" alt="data relationships" src="https://github.com/user-attachments/assets/ac8d5c18-e425-4d4f-beac-abb2c1889609" />
+
+
 ## Executive Summary
 The bar chart shows the predicted number of optimal bays against the average actual number of bays for each category in September, based on the data for 2024 (top graph) and for 2022-2024 (bottom graph). Firstly, it is important to note that we set a maximum for all categories to not exceed 3 bays, therefore where we see the recommendation to decrease the number of bays for the home category we ignore this because we set a limit of 3.
 
@@ -29,10 +32,14 @@ Next we will look at ladies tops. The graph in the top left shows the average we
 
 <img width="656" height="368" alt="Ladies Accs - monthly" src="https://github.com/user-attachments/assets/bfc25910-675b-4c32-9d10-4c7ef193bb06" />
 
-Finally we will look at ladies accessories. From the graph in the top left we can see that the average weekly revenue drops sharply from July to September, with a decrease from £218 to £146. The average quantity sold also drops from 50 to 35 in this period. Similarly, from the bottom right graph we see that the average revenue per bay for ladies accessories reaches its minimum in September. All of these points imply we should decrease the number of bays worth of ladies accessories. However, we should also note the rapid increase in the average revenue per bay of 57% from October to November where we should be ready to increase the number of bays back up again.
+Finally we will look at ladies accessories. From the graph in the top left we can see that the average weekly revenue drops sharply from July to September, with a decrease from £218 to £146. The average quantity sold also drops from 50 to 35 in this period. Similarly, from the bottom right graph we see that the average revenue per bay for ladies accessories reaches its minimum in September. All of these points imply we should decrease the number of bays worth of ladies accessories. However, we should also note the rapid increase in the average revenue per bay of 57% from October to November where we should be ready to increase the number of bays back up again. All other categories can also be evaluated in this way to determine if any changes should be made.
 
 ## Recommendations
+Following on from the executive summary and the detailed insights section we can provide some recommendations for September:
 
+- Decrease quantity of ladies dresses to 0.5 bays and replace with some ladies tops, ladies trousers, ladies knitwear and ladies coats (majority ladies tops and ladies knitwear)
+- Decrease quantity of mens coats, jackets and suits to 0.25 bays and replace with mens tops
+- Decrease quantity of ladies accessories to 0.75 bays and ladies shoes to 0.25 bays and replace with mens shoes and media (potentially also some more mens tops)
 ## Technical Details
 
 ## Assumptions
