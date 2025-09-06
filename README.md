@@ -6,13 +6,14 @@ This project is aimed towards boosting a local charity shop's sales revenue, who
 
 - Python notebooks for [data preparation](https://github.com/AaronMo13/Charity-Shop-Floor-Plan-Optimisation/blob/main/Data%20Checks.ipynb), [data tranformation](https://github.com/AaronMo13/Charity-Shop-Floor-Plan-Optimisation/blob/main/Charity%20Shop%20Data%20Transform.ipynb) and [exploratory data analysis](https://github.com/AaronMo13/Charity-Shop-Floor-Plan-Optimisation/blob/main/Charity%20Shop%20EDA.ipynb) can be found using these links.
 
-- A python notebook used for optimising the shop's floor plan can be found [here.](https://github.com/AaronMo13/Charity-Shop-Floor-Plan-Optimisation/blob/main/Charity%20Shop%20Optimise%20Floor%20Plan.ipynb)
+- A Python notebook used for optimising the shop's floor plan can be found [here.](https://github.com/AaronMo13/Charity-Shop-Floor-Plan-Optimisation/blob/main/Charity%20Shop%20Optimise%20Floor%20Plan.ipynb)
 
 ## Data Structure
 We use the charity shop's space management entry data reports dating back to 27th March 2022 until 20th July 2025. Constructed from this dataset we also have two other datasets: optim bays and optim rev. These two additional datasets are the results of our optimisation of the floor plan and are used to display these findings in Power BI. Optim bays contains the predicted optimal and average observed number of bays each category occupies in the shop for each month and optim rev contains the predicted optimal revenue and average observed revenue for each month. One bay is worth a meter of space in the shop. The data structure is shown in the diagram below.
 
 <img width="1023" height="667" alt="data relationships" src="https://github.com/user-attachments/assets/ac8d5c18-e425-4d4f-beac-abb2c1889609" />
 
+- Unfortunatley there was no way to export the data directly from the company's system to an Excel workbook, therefore I decided to firstly put it in a txt file which can be found [here.](https://github.com/AaronMo13/Charity-Shop-Floor-Plan-Optimisation/blob/main/space%20management%20data.txt) It was then converted into an Excel workbook using [this](https://github.com/AaronMo13/Charity-Shop-Floor-Plan-Optimisation/blob/main/Get%20Data.ipynb) Python Jupyter notebook and the final Excel workbooks for [space management](https://github.com/AaronMo13/Charity-Shop-Floor-Plan-Optimisation/blob/main/Charity%20Shop.xlsx) and [optimised floor plan](https://github.com/AaronMo13/Charity-Shop-Floor-Plan-Optimisation/blob/main/Optimised%20Floor%20Plan.xlsx) can be found using these links. 
 
 ## Executive Summary
 The bar chart shows the predicted number of optimal bays against the average actual number of bays for each category in September, based on the data for 2024 (top graph) and for 2022-2024 (bottom graph). Firstly, it is important to note that we set a maximum for all categories to not exceed 3 bays, therefore where we see the recommendation to decrease the number of bays for the home category, we ignore this because we set a limit of 3, and the reason home was above 3 was due to extra space being available at the time.
