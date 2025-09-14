@@ -47,6 +47,8 @@ Following on from the executive summary and the detailed insights section we can
 - Decrease quantity of ladies dresses to 0.5 bays and replace with some ladies tops, ladies trousers, ladies knitwear and ladies coats (majority ladies tops and ladies knitwear)
 - Decrease quantity of mens coats, jackets and suits to 0.25 bays and replace with mens tops
 - Decrease quantity of ladies accessories to 0.75 bays and ladies shoes to 0.25 bays and replace with mens shoes and media (potentially also some more mens tops)
-## Technical Details
 
-## Assumptions
+## Assumptions and Questions
+- I noticed for the weeks 14/01/2024 to 28/01/2024 that all values were 0. After discussion with the shop's manager, this was due to a shop refurbish and these 3 weeks were removed from the data set since they do not show a true representation of the data.
+- We create two new columns 'modified month' and 'modified year' to be used as the months and years for graphs and calculations, since our dates are for the date the week commences. These new columns are to account for dates where maybe there are only 1 or 2 days in that week which are in a particular month or year. For example if a week begins on 31st december 2024, we would give this a modified month of january and a modified year of 2025, since 6 of the 7 days fall into January 2024.
+- After discussion with the shop's manager the categories electrical, furniture and non clothing promotion are not sold in the shop so any of the sales for these should be treated as human error at the till and moved to the categories jewellery, books and kids non clothing, respectively. Therefore, all other column values (for example the percentage of the revenue each category holds for that week) were updated too before analysis began.
