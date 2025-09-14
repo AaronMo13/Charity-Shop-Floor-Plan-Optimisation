@@ -4,7 +4,7 @@ This project is aimed towards boosting a local charity shop's sales revenue, who
 
 - The interactive Power BI dashboard can be downloaded [here.](https://github.com/AaronMo13/Charity-Shop-Floor-Plan-Optimisation/blob/main/Charity%20Shop%20Dashboard.pbix)
 
-- Python Jupyter notebooks for [data preparation and quality checks](https://github.com/AaronMo13/Charity-Shop-Floor-Plan-Optimisation/blob/main/Data%20Checks.ipynb), [data tranformation](https://github.com/AaronMo13/Charity-Shop-Floor-Plan-Optimisation/blob/main/Charity%20Shop%20Data%20Transform.ipynb) and [exploratory data analysis](https://github.com/AaronMo13/Charity-Shop-Floor-Plan-Optimisation/blob/main/Charity%20Shop%20EDA.ipynb) can be found using these links.
+- Python Jupyter notebooks for [data preparation and quality checks](https://github.com/AaronMo13/Charity-Shop-Floor-Plan-Optimisation/blob/main/Data%20Checks.ipynb), [data transformation](https://github.com/AaronMo13/Charity-Shop-Floor-Plan-Optimisation/blob/main/Charity%20Shop%20Data%20Transform.ipynb) and [exploratory data analysis](https://github.com/AaronMo13/Charity-Shop-Floor-Plan-Optimisation/blob/main/Charity%20Shop%20EDA.ipynb) can be found using these links.
 
 - A Python Jupyter notebook used for optimising the shop's floor plan can be found [here.](https://github.com/AaronMo13/Charity-Shop-Floor-Plan-Optimisation/blob/main/Charity%20Shop%20Optimise%20Floor%20Plan.ipynb)
 
